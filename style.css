@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.board{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.row{
+    display: flex;
+}
+.cell{
+    height: 10vh;
+    width: 10vh;
+    border: 1px solid black;
+}
